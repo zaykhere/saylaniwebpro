@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css?family=Chivo|Playfair+Display:400i&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+}
+
+#header-menu {
+  min-height: 80vh;
+  max-height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("header.jpg") no-repeat center fixed;
+}
+
+.logo {
+  margin-left: -15px !important;
+}
+
+nav {
+  min-height: 100px;
+  background-color: black !important;
+  opacity: 1;
+}
+
+.navbar-dark,
+.bg-dark {
+  background-color: black !important;
+  opacity: 0.8;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+.navbar-center {
+  margin-left: 15%;
+}
+
+.nav-button,
+.nav-button:active,
+.nav-button:visited,
+.nav-button:link {
+  padding: 15px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+
+.nav-button:hover {
+  background-color: transparent;
+  border: 1px solid red;
+}
+
+#taglines {
+  color: #fff;
+  text-align: center;
+  margin-top: 20vh;
+  opacity: 5;
+}
+
+.main-line {
+  font-size: 18px;
+}
+
+.sub-line {
+  margin-top: 2%;
+  font-size: 46px;
+}
+
+/*.two-images{
+	margin-left: 30px;
+	margin-top:20px;
+	
+}
+
+.one{
+	margin-left:25%;
+}*/
+
+.one,
+.two {
+  width: 100%;
+  margin-bottom: 30px !important;
+}
+
+.two-images {
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+#header-tagline {
+  margin-top: 10px;
+}
+
+.about-text {
+  text-align: center;
+  font-size: 38px;
+}
+
+.lugais-text {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 5%;
+  margin-bottom: 35px;
+}
+
+/* Section */
+.section {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12%;
+}
+/* Column */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+  margin-left: auto !important;
+}
+
+/* Row */
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row {
+  zoom: 1; /* For IE 6/7 */
+}
+
+/* Grid */
+.grid_1_of_2 {
+  width: 35.2%;
+  margin-bottom: 55px !important;
+  margin-right: 80px !important;
+}
+.grid_2_of_2 {
+  width: 100%;
+  margin-left: 90px !important;
+}
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+  [class*="grid_"] {
+    width: 100%;
+  }
+}
+
+.menu {
+  /*margin-left: 35%;*/
+  margin-right: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: red;
+  font-family: "Chivo", sans-serif;
+}
+
+.menu:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.order {
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: green;
+  font-family: "Chivo", sans-serif;
+}
+
+.order:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.transform,
+.transform2 {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.transform-active {
+  background-color: white;
+  color: black;
+}
+
+.buttons-alignment {
+  text-align: center;
+}
+
+/*@media only screen and (max-width: 676px){
+	.menu{
+		margin-left: 25%;
+	}
+}
+
+@media only screen and (max-width: 515px){
+	.menu{
+		margin-left: 15%;
+	}
+}
+
+@media only screen and (max-width: 377px){
+	.menu{
+		margin-left: 20%;
+		margin-bottom: 10px;
+		
+	}
+
+	.order{
+		margin-left: 30%;
+	}
+}*/
+
+.customerQuotes {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.customerheadline {
+  margin: 30px !important;
+  color: #f39c12;
+  text-align: center;
+  padding: 20px !important;
+}
+
+.customerQuotes .row {
+  margin-top: 30px !important;
+}
+
+.customerQuotes .row h4 {
+  color: #f39c12;
+}
+
+.userProf {
+  border-radius: 50%;
+  display: block;
+  height: 80px;
+  margin-top: 25px;
+}
+
+.highlight {
+  color: #f39c12;
+}
+
+.dishes {
+  background-color: white;
+  min-height: 300px;
+}
+
+.dishes img {
+  height: 100px;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+  text-align: center;
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.dishes,
+.dishes img {
+  margin-top: 25px;
+}
+
+.dishes h3 {
+  font-family: "Chivo", sans-serif;
+  margin-top: 20px;
+}
+
+.dishes h5 {
+  font-family: "Chivo", sans-serif;
+}
+
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("header.jpg") no-repeat center fixed;
+  margin-top: 25px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.imagealign {
+  margin-top: 20px;
+  display: block;
+}
+
+.centerimg {
+  margin-top: 40px;
+}
+
+.footer-text,
+.footer-text a,
+.footer-text a:visited {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.none-text,
+.none-text:link {
+  text-decoration: none !important;
+}
+
+#social a,
+#social a:link,
+#social a:visited {
+  text-decoration: none;
+}
+
+#social img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+#social {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.menuimg {
+  margin-top: 40px;
+}
